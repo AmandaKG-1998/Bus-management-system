@@ -144,8 +144,7 @@ You should see:
 MongoDB connected successfully
 Server running on port 5000
 ```
-
-✅ Leave this terminal running. Your backend is now live at `http://localhost:5000`.
+Leave this terminal running. Your backend is now live at `http://localhost:5000`.
 
 ---
 
@@ -200,20 +199,6 @@ From here you can:
    Replace `YOUR_USERNAME` with your actual GitHub username. It will ask you to sign in the first time.
 
 Your `.env` files will NOT be pushed (they're excluded via `.gitignore`) — that's intentional, since they contain secrets. Each teammate will need to create their own `.env` from `.env.example` locally.
-
----
-
-## 7. How the team can divide work from here (Agile / GitHub workflow)
-
-Since the whole app is already built, your team can now focus on the **documentation and presentation** parts of the assignment instead of writing code from scratch:
-
-- **Person 1**: Write up the Introduction, Project Objectives, and how you used Agile (e.g. weekly sprints, daily standups) + GitHub workflow (branches, commits, pull requests).
-- **Person 2**: Write Functional Requirements (what the system does — list each feature), Non-Functional Requirements (performance, security, usability), and draw a Use Case Diagram (tools: draw.io / Lucidchart) showing actors (Admin, Staff) and their actions.
-- **Person 3**: Draw the Database Design / ER Diagram (collections are listed below) and a Class Diagram of the models.
-- **Person 4**: Write the Testing section (test each feature manually and note results in a table), a short User Manual (screenshots + how to use each page), and compile the final report.
-
-If you genuinely want each person to also *touch the code* (e.g. for the GitHub commit history to show 4 contributors), the cleanest way is:
-- Each person creates their own branch (`git checkout -b person1-auth`), makes a small cosmetic change to their component's files (e.g. tweak a label, add a comment, adjust a style), commits, and opens a Pull Request into `main`. This creates genuine commit history per person without breaking the working app.
 
 ---
 
@@ -372,20 +357,6 @@ From here you can:
    Replace `YOUR_USERNAME` with your actual GitHub username. It will ask you to sign in the first time.
 
 Your `.env` files will NOT be pushed (they're excluded via `.gitignore`) — that's intentional, since they contain secrets. Each teammate will need to create their own `.env` from `.env.example` locally.
-
----
-
-## 7. How the team can divide work from here (Agile / GitHub workflow)
-
-Since the whole app is already built, your team can now focus on the **documentation and presentation** parts of the assignment instead of writing code from scratch:
-
-- **Person 1**: Write up the Introduction, Project Objectives, and how you used Agile (e.g. weekly sprints, daily standups) + GitHub workflow (branches, commits, pull requests).
-- **Person 2**: Write Functional Requirements (what the system does — list each feature), Non-Functional Requirements (performance, security, usability), and draw a Use Case Diagram (tools: draw.io / Lucidchart) showing actors (Admin, Staff) and their actions.
-- **Person 3**: Draw the Database Design / ER Diagram (collections are listed below) and a Class Diagram of the models.
-- **Person 4**: Write the Testing section (test each feature manually and note results in a table), a short User Manual (screenshots + how to use each page), and compile the final report.
-
-If you genuinely want each person to also *touch the code* (e.g. for the GitHub commit history to show 4 contributors), the cleanest way is:
-- Each person creates their own branch (`git checkout -b person1-auth`), makes a small cosmetic change to their component's files (e.g. tweak a label, add a comment, adjust a style), commits, and opens a Pull Request into `main`. This creates genuine commit history per person without breaking the working app.
 
 ---
 
