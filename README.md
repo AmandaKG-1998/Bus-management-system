@@ -1,18 +1,5 @@
 # 🚌 Bus Management System
 
-A full MERN-stack (MongoDB, Express, React, Node.js) project that covers **all four components** from your assignment:
-
-| Person | Components | Where in this project |
-|---|---|---|
-| Person 1 | Authentication (JWT, roles) + Dashboard | `backend/controllers/authController.js`, `frontend/src/pages/Login.jsx`, `Register.jsx`, `Dashboard.jsx` |
-| Person 2 | Route Management + Schedule Management (with time-conflict detection) | `backend/controllers/routeController.js`, `scheduleController.js`, `frontend/src/pages/Routes.jsx`, `Schedules.jsx` |
-| Person 3 | Driver Management + Vehicle Management | `backend/controllers/driverController.js`, `vehicleController.js`, `frontend/src/pages/Drivers.jsx`, `Vehicles.jsx` |
-| Person 4 | Fuel & Maintenance + Reports & Analytics (with PDF export) | `backend/controllers/fuelController.js`, `maintenanceController.js`, `frontend/src/pages/FuelLogs.jsx`, `Maintenance.jsx`, `Reports.jsx` |
-
-This README assumes **zero prior experience**. Follow it top to bottom and don't skip steps.
-
----
-
 ## 1. Install the tools you need (one-time setup)
 
 You need 3 things on your computer:
@@ -90,7 +77,7 @@ MongoDB connected successfully
 Server running on port 5000
 ```
 
-✅ Leave this terminal running. Your backend is now live at `http://localhost:5000`.
+Leave this terminal running. Your backend is now live at `http://localhost:5000`.
 
 ---
 
